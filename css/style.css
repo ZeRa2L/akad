@@ -27,6 +27,15 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-family: "Open sans", sans-serif;
+    line-height: 30px;
+}
+
+img {
+    width: 100%;
+}
+
 .first-level li {
     float: left;
     margin-right: 20px;
@@ -87,7 +96,7 @@ a {
 }
 
 .container {
-    width: 1000px;
+    width: 1170px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -106,4 +115,94 @@ a {
 
 .desktop-nav {
     float: left;
+}
+
+.site-hero {
+    width: 100%;
+    height: 850px;
+    
+    background: #fff url('../img/site-hero.jpg') no-repeat;
+    position: relative;
+    background-size: cover;
+
+    overflow: hidden;
+}
+
+.site-hero p {
+    width: 50%;
+    margin: 0 auto;
+    color: #60606e;
+}
+
+.small-title {
+    padding: 7px 12px;
+    background-color: #7beec7;
+    display: inline-block;
+
+    text-transform: uppercase;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.slides {
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    top: 200px;
+}
+
+.big-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    border: solid 10px #60606e;
+    font-size: 48px;
+    color: #60606e;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.agency {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: -300px;
+
+    display: flex;
+}
+
+.agency img {
+    max-height: 400px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.history-1 {
+    width: 41.66666667%;
+    padding: 0 15px;
+    float: left;
+}
+
+.history-2 {
+    margin-left: 8.33333333%;
+    width: 50%;
+    float: left;
+}
+
+.section-title {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+
+.row:before {
+    content: "";
+    display: table;
 }
