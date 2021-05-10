@@ -39,6 +39,10 @@ img {
     width: 100%;
 }
 
+section {
+    margin-top: 150px;
+}
+
 .first-level li {
     float: left;
     margin-right: 20px;
@@ -235,13 +239,11 @@ img {
 }
 
 .section-title span {
-
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-
     text-transform: uppercase;
-    color: #60606e;
 
+    color: #60606e;
     font-size: 30px;
     position: relative;
     display: inline-block;
@@ -258,3 +260,49 @@ img {
     top: 18px;
 }
 
+.section__title {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto 30px;
+}
+
+.section__title span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: #60606e;
+    font-size: 30px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.section__title span:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 22px;
+    background-color: #7beec7;
+    position: absolute;
+    top: 18px;
+    z-index: -1;
+}
+
+.services-1 {
+    width: 58.33333333%;
+    float: left;
+    padding: 0 15px;
+}
+
+.services-2 {
+    padding: 0 15px;
+}
+
+.services__row {
+    width: 50%;
+}
+
+.icon-1 {
+    width: 30px;
+}
