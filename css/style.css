@@ -289,20 +289,54 @@ section {
     z-index: -1;
 }
 
+.services__display {
+    display: flex;
+}
+
 .services-1 {
     width: 58.33333333%;
     float: left;
     padding: 0 15px;
+    margin-top: 80px;
 }
 
 .services-2 {
     padding: 0 15px;
+    margin-top: 80px;
+}
+
+.services-2 img {
+    width: 100%;
 }
 
 .services__row {
     width: 50%;
+
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.services__row span {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: inline-block;
+
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.services__row li {
+    line-height: 30px;
+    color: #999999;
+    list-style: none;
+
+    text-transform: uppercase;
 }
 
 .icon-1 {
+    display: block;
     width: 30px;
 }
