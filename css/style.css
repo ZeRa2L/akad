@@ -132,7 +132,7 @@ section {
     color: #60606e;
 }
 
-.small-title {
+.site-hero .small-title {
     color: #60606e;
     padding: 7px 12px;
     background-color: #7beec7;
@@ -144,7 +144,7 @@ section {
     font-weight: 700;
 }
 
-.big-title {
+.site-hero .big-title {
     font-size: 48px;
     color: #60606e;
     padding: 10px 40px;
@@ -618,4 +618,39 @@ section {
 
 .footer-right a:hover {
     color: #7beec7;
+}
+
+/* about us*/
+
+.site-hero_2 {
+    height: 500px;
+    width: 100%;
+    background: #fff url(../img/site-hero2.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.site-hero_2 .big-title {
+    font-size: 36px;
+
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.site-hero_2 .small-title {
+    font-size: 14px;
+
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
 }
