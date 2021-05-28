@@ -654,3 +654,37 @@ section {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
+
+.text-about-us-display {
+    display: flex;
+}
+
+.text-about,
+.text-wedo {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.text-about-us-display .section-title:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 22px;
+    background-color: #7beec7;
+    position: relative;
+    top: 40px;
+}
+
+.text-about-us-display .section-title p {
+    color: #60606e;
+    line-height: 24px;
+
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.some-advantages img {
+    width: 30px;
+}
