@@ -790,3 +790,37 @@ section {
 	transform:translateY(0);
 	opacity: 1;
 }
+
+.read-more-color {
+    padding: 15px 30px;
+    background-color: #efeff0;  
+}
+
+.read-more p {
+    float: left;
+    line-height: 50px;
+    margin: 0;
+    font-style: italic;
+}
+
+.read-more a {
+    float: right;
+    background-color: #7beec7;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    width: 150px;
+    text-align: center;
+    transition: 0.5s;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 0;
+    border-radius: 0;
+}
+
+.read-more a:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.397);
+}
