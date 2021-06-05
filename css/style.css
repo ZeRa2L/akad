@@ -791,9 +791,9 @@ section {
 	opacity: 1;
 }
 
-.read-more-color {
-    padding: 15px 30px;
-    background-color: #efeff0;  
+.read-more {
+    background-color: #efeff0;
+    padding: 30px 30px;
 }
 
 .read-more p {
@@ -823,4 +823,72 @@ section {
 
 .read-more a:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.397);
+}
+
+.comments-display {
+	display: flex;
+}
+
+.comments-1,
+.comments-2 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.comments-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.comments-1 p {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.comments-1 a {
+    color: #fff;
+    background-color: #7beec7;
+    padding: 10px 15px;
+    transition: 0.5s;
+
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.comments-1 a:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.397);
+}
+
+.comments-2 {
+    display: block;
+}
+
+.comments-2-display {
+    display: flex;
+}
+
+.comments-2-div {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.comments-2-a {
+    border: solid 1px rgba(0,0,0,.1);
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.comments-2-a img {
+    max-width: 100%;
+    max-height: 100px;
+    opacity: .5;
+    transition: all .2s ease-in-out;
 }
