@@ -892,3 +892,36 @@ section {
     opacity: .5;
     transition: all .2s ease-in-out;
 }
+
+.what-we-do-display {
+    display: flex;
+}
+
+.what-we-do-1,
+.what-we-do-2 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.what-we-do-advantages {
+    display: flex;
+}
+
+.what-we-do-1 p {
+    margin-bottom: 30px;
+}
+
+.what-we-do-advantages-1,
+.what-we-do-advantages-2 {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.what-we-do-advantages-1 ul li,
+.what-we-do-advantages-2 ul li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+}
