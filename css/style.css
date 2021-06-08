@@ -925,3 +925,25 @@ section {
     position: relative;
     margin-bottom: 10px;
 }
+
+.what-we-do-i-display {
+    display: flex;
+    text-align: center;
+}
+
+.what-we-do-i {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.what-we-do-i-after div {
+    font-size: 18px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.what-we-do-i-after img {
+    width: 50px;
+}
