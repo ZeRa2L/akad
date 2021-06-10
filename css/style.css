@@ -947,3 +947,52 @@ section {
 .what-we-do-i-after img {
     width: 50px;
 }
+
+.what-we-do-i-after:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 22px;
+    background-color: #7beec7;
+    position: relative;
+    top: 50px;
+    left: 102px;
+    z-index: -1;
+}
+
+.tariph-plans {
+    width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tariph-plans-after {
+    padding: 30px;
+    border-top: solid 5px #7beec7;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.plans-title {
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tariph-plans-display {
+    display: flex;
+}
+
+.plans-title-2 {
+    background-color: #7beec7;
+    padding: 5px 20px;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.tariph-plans-after ul li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+}
