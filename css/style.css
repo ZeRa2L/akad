@@ -971,12 +971,8 @@ section {
     border-top: solid 5px #7beec7;
     position: relative;
     transition: all .2s ease-in-out;
-}
 
-.plans-title {
-    margin-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
+    transition: 0.5s;
 }
 
 .tariph-plans-display {
@@ -995,4 +991,48 @@ section {
     list-style: none;
     position: relative;
     margin-bottom: 10px;
+}
+
+.plans-title {
+    font-size: 30px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tariph-plans-after ul {
+    margin: 50px 0;
+}
+
+.tariph-plans-after ul li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.tariph-plans-after a {
+    height: 50px;
+    line-height: 50px;
+    min-width: 150px;
+    text-align: center;
+    background-color: #7beec7;
+    color: #fff;
+    padding: 15px 30px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    border-radius: 0;
+    border: 0;
+    transition: 0.5s;
+}
+
+.tariph-plans-after a:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.397);
+}
+
+.tariph-plans-after:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.397);
 }
