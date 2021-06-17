@@ -1036,3 +1036,41 @@ section {
 .tariph-plans-after:hover {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.397);
 }
+
+.project-display {
+    display: flex;
+}
+
+.project-1 {
+    width: 75%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.project-1 p {
+    margin-bottom: 20px;
+}
+
+.project-2 {
+    width: 25%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.project-2 h5 {
+    margin-top: 30px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.project-list li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.list-display {
+    display: flex;
+}
