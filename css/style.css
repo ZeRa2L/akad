@@ -1135,3 +1135,41 @@ section {
     margin-bottom: 30px;
     display: inline-block;
 }
+
+.project__2-1 {
+    width: 66.66666667%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.project__2-1 img {
+    margin-bottom: 30px;
+}
+
+.project__2-2 {
+    width: 33.33333333%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.project__2-display {
+    display: flex;
+}
+
+.project__2-right {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.project__2-right h5 {
+    margin-top: 30px;
+    font-size: 14px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.project__2-right .project-list {
+    margin-top: 30px;
+}
