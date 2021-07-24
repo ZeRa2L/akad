@@ -1181,7 +1181,7 @@ section {
 .input_1-1,
 .input_1-2 {
     height: 50px;
-    width: 40%;
+    width: 50%;
     border: solid 1px rgba(0,0,0,.1);
     position: relative;
 }
@@ -1207,6 +1207,7 @@ section {
     width: 100%;
     border: solid 1px rgba(0,0,0,.1);
     position: relative;
+    margin-right: 20px;
 }
 
 .input_1-0 input {
@@ -1224,12 +1225,51 @@ section {
     font-family: "Montserrat", sans-serif
 }
 
+.textarea_1-0 {
+    height: 200px;
+    width: 100%;
+    border: solid 1px rgba(0,0,0,.1);
+    position: relative;
+    margin-right: 20px;
+}
+
+.textarea_1-0 textarea {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    padding: 0 20px;
+    float: left;
+    position: relative;
+    background-color: transparent;
+    z-index: 2;
+    font-size: 14px;
+    color: #999999;
+
+    font-family: "Montserrat", sans-serif
+}
+
 .input_1-2 {
-    margin-left: 20%;
+    margin-left: 5%;
+}
+
+.input_1-1,
+.input_1-2,
+.input_1-0  {
+    margin-bottom: 30px;
 }
 
 .contact-us-1,
 .contact-us-2 {
     width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact-us-2 img {
+    height: 830px;
+}
+
+.contact-us-display {
+    display: flex;
 }
 
